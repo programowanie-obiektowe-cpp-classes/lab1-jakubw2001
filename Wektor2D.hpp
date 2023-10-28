@@ -22,10 +22,6 @@ public:
     void setY(double y) {Y = y;}
     double getX() {return X;}
     double getY() {return Y;}
-    Wektor2D sum(Wektor2D v1, Wektor2D v2)
-    {
-        return Wektor2D(v1.getX()+v2.getX(), v2.getY()+v2.getY());
-    }
 private:
     double X, Y;
 };
