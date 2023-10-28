@@ -1,7 +1,10 @@
 class Wektor2D
 {
 public:
-    Wektor2D(){}
+    Wektor2D(){
+        X = 0;
+        Y = 0;
+    }
     Wektor2D(double x, double y){
         X = x;
         Y = y;
